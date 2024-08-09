@@ -40,7 +40,12 @@ function CitiesProvider({ children }) {
 
   return (
     <CititesConxtext.Provider
-      value={{ cities, isLoading, currentCity, getCity }}
+      value={{
+        cities,
+        isLoading,
+        currentCity,
+        getCity,
+      }}
     >
       {children}
     </CititesConxtext.Provider>
