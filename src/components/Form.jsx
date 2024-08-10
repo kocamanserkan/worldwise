@@ -42,7 +42,7 @@ function Form() {
       </div>
 
       <div className={styles.row}>
-        <label htmlFor="date">When did you go to {cityName}?</label>
+        <label htmlFor="date">When did you go too {cityName}?</label>
         <input
           id="date"
           onChange={(e) => setDate(e.target.value)}
